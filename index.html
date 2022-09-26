@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice Roller</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/dice-icon.png" type="image/png">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Script Link -->
+    
+
+    <!-- Bootstrap Links -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <!-- Font Awesome Link  -->
+    <script src="https://kit.fontawesome.com/cdf1feb7a5.js" crossorigin="anonymous"></script>
+  
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  
+  <!-- Bootstrap Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+  <!-- Theme button -->
+  <div class="container-fluid">
+    <div class="theme-button">
+    <input type='checkbox' class="checkbox" id="checkbox">
+    <label for="checkbox" class="label">
+      <i class='fas fa-sun'></i>
+      <i class='fas fa-moon'></i>
+      <div class="ball"></div>
+    </label>
+    </div>
+
+  <!-- Title -->
+      <h1 class="title">🚩Dice Roll</h1>
+
+  <!-- Main Body -->
+      <div class="row justify-content-center">
+        <div class="col-lg-2">
+          
+          <p id='name-1' class="title-text">Player 1</p>
+          <img id="die-01" class='title-dice' src="images\dice-01.png" alt="Dice image">
+        </div>
+        <div class="col-lg-2">
+          <p id='name-2' class="title-text">Player 2</p>
+          <img id='die-02' class='title-dice' src="images\dice-02.png" alt="Dice image">
+        </div>
+      </div>
+  
+  <!-- Roll Dice Button -->
+ 
+  <button type="button" onclick="roll()" class="btn btn-danger btn-lg">ROLL DICE</button>
+
+   <!-- Footer -->
+   <footer>
+    Created 🎲 By 🎲 Samyak
+  </footer>
+  
+</div>
+<script src="index.js" defer></script>
+</body>
+ 
+</html>

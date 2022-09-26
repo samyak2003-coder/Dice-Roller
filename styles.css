@@ -1,0 +1,110 @@
+/* Theme Button */
+
+
+body.dark {
+    background-color: #292c35;
+} 
+
+.label {
+    height: 28px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #111;
+    justify-content: space-between;
+    padding: 7.5px;
+    display: flex;
+    position: relative;
+    transform: scale(1.25);
+
+}
+
+.checkbox {
+ display: none;
+}
+
+.checkbox:checked + .label .ball {
+    transform: translateX(24px);
+}
+
+.fa-moon {
+    color: #f1c40f;
+}
+
+.fa-sun {
+    color: #f39c12;
+}
+
+.ball {
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+.theme-button {
+    margin: 20px 20px 0;
+}
+
+/* Body */
+.container-fluid {
+   text-align: center;
+}
+
+.title {
+    font-size: 7.5rem;
+    color:#FFA500;
+    word-spacing: 10px;
+    font-family: 'Lobster',sans-serif;
+    font-weight: bolder;
+    margin:-20px auto 30px;
+ 
+}
+
+.title-text {
+    color:#ff4c68;
+    font-family: 'Indie Flower',sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.title-dice {
+    width: 80%;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+/* Roll Button  */
+.container-fluid .btn-lg {
+    --bs-btn-padding-y: 0.75rem;
+    --bs-btn-padding-x: 1.25rem;
+    --bs-btn-font-size: 1.65rem;
+    margin-top: 40px;
+}
+
+/* Footer */
+footer {
+    margin-top: 4%;
+    color: #1AFA10;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+.roll-image {
+    width: 8%;
+    margin-right: 20px;
+    
+}
+/* @media changes  */
+@media (max-with:990px) {
+    .title-dice {
+        width: 5%;
+    }
+    .title {
+       font-size: 50%;
+    }
+    
+}
